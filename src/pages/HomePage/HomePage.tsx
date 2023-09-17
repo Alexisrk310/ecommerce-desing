@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from '@/components/Carousel';
+import Carrousel from '@/components/Carrousel';
 import Card from '@/components/Card';
 import './HomePage.css';
 
@@ -8,7 +8,7 @@ export type HomePageProps = {};
 const HomePage: React.FC<HomePageProps> = ({}) => {
 	return (
 		<>
-			<Carousel />
+			<Carrousel />
 			<h1 className="text-6xl text-center my-9 font-bold text-sky-500">
 				Products
 			</h1>

@@ -1,3 +1,6 @@
-.h-carousel {
-	height: 40rem;
+@media (min-width: 1281px) {
+	.carrousel-custom {
+		height: 40rem;
+		width: 100%;
+	}
 }
