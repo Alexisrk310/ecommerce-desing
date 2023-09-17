@@ -1,16 +1,56 @@
 import React from 'react';
+import Carousel from '@/components/Carousel';
+import Card from '@/components/Card';
 import './HomePage.css';
-// import Card from '@/components/Card';
-import { Carousel } from '@/components/Carousel';
 
 export type HomePageProps = {};
 
 const HomePage: React.FC<HomePageProps> = ({}) => {
 	return (
-		<div>
+		<>
 			<Carousel />
-			{/* <Card /> */}
-		</div>
+			<h1 className="text-6xl text-center my-9 font-bold text-sky-500">
+				Products
+			</h1>
+			<div className="container m-auto gap-10 flex items-center justify-center flex-wrap">
+				<Card
+					image="https://colombina.com/uploads/banner/9941694117419143.png"
+					alt="hotDog"
+					title="HOT DOG"
+					description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, aperiam?"
+				/>
+				<Card
+					image="https://colombina.com/uploads/banner/9941694117419143.png"
+					alt="hotDog"
+					title="HOT DOG"
+					description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, aperiam?"
+				/>
+				<Card
+					image="https://colombina.com/uploads/banner/9941694117419143.png"
+					alt="hotDog"
+					title="HOT DOG"
+					description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, aperiam?"
+				/>
+				<Card
+					image="https://colombina.com/uploads/banner/9941694117419143.png"
+					alt="hotDog"
+					title="HOT DOG"
+					description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, aperiam?"
+				/>
+				<Card
+					image="https://colombina.com/uploads/banner/9941694117419143.png"
+					alt="hotDog"
+					title="HOT DOG"
+					description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, aperiam?"
+				/>
+				<Card
+					image="https://colombina.com/uploads/banner/9941694117419143.png"
+					alt="hotDog"
+					title="HOT DOG"
+					description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, aperiam?"
+				/>
+			</div>
+		</>
 	);
 };
 
