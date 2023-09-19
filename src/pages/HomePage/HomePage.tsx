@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './HomePage.css';
-import { Avatar, Card, Carrousel } from '@/components';
+import { Avatar, Card, CardHorizontal, Carrousel } from '@/components';
 
 export type HomePageProps = {};
 
@@ -16,7 +16,7 @@ const HomePage: React.FC<HomePageProps> = ({}) => {
 					'https://e1.pxfuel.com/desktop-wallpaper/399/377/desktop-wallpaper-10-traditional-american-foods-american-food.jpg',
 				]}
 			/>
-			<h1 className="text-6xl text-center my-9 font-bold text-sky-500">
+			<h1 className="text-4xl text-center my-9 font-bold text-sky-500">
 				Products
 			</h1>
 			<div className="container m-auto gap-10 flex items-center justify-center flex-wrap">
@@ -70,10 +70,10 @@ const HomePage: React.FC<HomePageProps> = ({}) => {
 				]}
 			/>
 
-			<h1 className="text-6xl text-center my-9 font-bold text-sky-500">
+			<h1 className="text-4xl text-center my-9 font-bold text-sky-500">
 				Our brands
 			</h1>
-			<div className="my-9 container flex gap-10 items-center justify-center flex-wrap">
+			<div className="container m-auto my-9 gap-5 flex justify-around align-middle flex-wrap">
 				<Avatar
 					imageAvatar={[
 						'https://e7.pngegg.com/pngimages/104/119/png-clipart-orange-and-white-logo-computer-icons-icon-design-person-person-miscellaneous-logo.png',
@@ -108,7 +108,7 @@ const HomePage: React.FC<HomePageProps> = ({}) => {
 					]}
 				/>
 			</div>
-			<h1 className="text-6xl text-center my-9 font-bold text-sky-500">
+			<h1 className="text-4xl text-center my-9 font-bold text-sky-500">
 				News that brings us closer
 			</h1>
 			<div
@@ -129,6 +129,42 @@ const HomePage: React.FC<HomePageProps> = ({}) => {
 					</div>
 				</div>
 			</div>
+			<div className="m-auto my-9 gap-5 flex justify-around align-middle flex-wrap">
+				<CardHorizontal
+					image="https://kanoonforall.com/wp-content/uploads/2021/01/fimg-notice1.jpg"
+					title="New Notices"
+					description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, neque."
+				/>
+				<CardHorizontal
+					image="https://kanoonforall.com/wp-content/uploads/2021/01/fimg-notice1.jpg"
+					title="New Notices"
+					description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, neque."
+				/>
+				<CardHorizontal
+					image="https://kanoonforall.com/wp-content/uploads/2021/01/fimg-notice1.jpg"
+					title="New Notices"
+					description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, neque."
+				/>
+
+				<CardHorizontal
+					image="https://kanoonforall.com/wp-content/uploads/2021/01/fimg-notice1.jpg"
+					title="New Notices"
+					description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, neque."
+				/>
+				<CardHorizontal
+					image="https://kanoonforall.com/wp-content/uploads/2021/01/fimg-notice1.jpg"
+					title="New Notices"
+					description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, neque."
+				/>
+				<CardHorizontal
+					image="https://kanoonforall.com/wp-content/uploads/2021/01/fimg-notice1.jpg"
+					title="New Notices"
+					description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, neque."
+				/>
+			</div>
+			<h1 className="text-4xl text-center my-9 font-bold text-sky-500">
+				Find all our products at:
+			</h1>
 		</>
 	);
 };
