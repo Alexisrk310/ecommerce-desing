@@ -1,4 +1,9 @@
-export const NavBar = () => {
+import React from 'react';
+import './NavBar.css';
+
+export type NavBarProps = {};
+
+const NavBar: React.FC<NavBarProps> = ({}) => {
 	return (
 		<div className="navbar-center justify-center bg-base-100 hidden lg:flex">
 			<ul className="menu menu-horizontal px-1">
@@ -63,3 +68,5 @@ export const NavBar = () => {
 		</div>
 	);
 };
+
+export default NavBar;

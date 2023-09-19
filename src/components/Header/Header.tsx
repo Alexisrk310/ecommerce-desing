@@ -1,4 +1,9 @@
-const Header = () => {
+import React from 'react';
+import './Header.css';
+
+export type HeaderProps = {};
+
+const Header: React.FC<HeaderProps> = ({}) => {
 	return (
 		<div className="navbar bg-base-100">
 			<div className="dropdown">
@@ -169,4 +174,5 @@ const Header = () => {
 		</div>
 	);
 };
+
 export default Header;
