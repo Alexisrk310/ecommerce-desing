@@ -165,6 +165,53 @@ const HomePage: React.FC<HomePageProps> = ({}) => {
 			<h1 className="text-4xl text-center my-9 font-bold text-sky-500">
 				Find all our products at:
 			</h1>
+			<div className="container m-auto my-9 gap-5 flex justify-around align-middle flex-wrap">
+				<img
+					className="w-40"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Grupo_Exito_logo.svg/1200px-Grupo_Exito_logo.svg.png"
+					alt="grupo exito"
+				/>
+				<img
+					className="w-40"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Grupo_Exito_logo.svg/1200px-Grupo_Exito_logo.svg.png"
+					alt="grupo exito"
+				/>
+				<img
+					className="w-40"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Grupo_Exito_logo.svg/1200px-Grupo_Exito_logo.svg.png"
+					alt="grupo exito"
+				/>
+				<img
+					className="w-40"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Grupo_Exito_logo.svg/1200px-Grupo_Exito_logo.svg.png"
+					alt="grupo exito"
+				/>
+				<img
+					className="w-40"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Grupo_Exito_logo.svg/1200px-Grupo_Exito_logo.svg.png"
+					alt="grupo exito"
+				/>
+			</div>
+			<div className="hero  bg-base-200 my-9">
+				<div className="hero-content flex-col lg:flex-row-reverse">
+					<img
+						src="https://colombina.com/uploads/Logo_Market_Colombina.svg"
+						className="max-w-sm rounded-lg shadow-2xl"
+					/>
+					<div className="mx-5">
+						<h1 className="text-3xl font-bold ">
+							All the variety of products in one place
+						</h1>
+						<p className="py-6">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+							Temporibus minima eligendi sequi quia? Odio, ipsa?
+						</p>
+						<button className="btn btn-outline btn-primary btn-block">
+							Find the nearest place
+						</button>
+					</div>
+				</div>
+			</div>
 		</>
 	);
 };

@@ -112,7 +112,7 @@ const Header: React.FC<HeaderProps> = ({}) => {
 				</ul>
 			</div>
 			<div className="flex-1">
-				<a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+				<a className="btn btn-ghost normal-case text-xl">Ecommerce</a>
 			</div>
 
 			<div className="navbar-center hidden lg:flex ">
