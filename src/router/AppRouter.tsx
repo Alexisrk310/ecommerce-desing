@@ -1,5 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom';
-import { HomePage, NoFoundPage } from '@/pages';
+import {
+	AboutPage,
+	HomePage,
+	NoFoundPage,
+	ServicesPage,
+	StorePage,
+	UserAuth,
+} from '@/pages';
 import LayoutPage from '@/layout/LayoutPage';
 
 export const AppRouter = createBrowserRouter([
@@ -15,6 +22,23 @@ export const AppRouter = createBrowserRouter([
 					{
 						index: true,
 						element: <HomePage />,
+					},
+
+					{
+						path: '/store',
+						element: <StorePage />,
+					},
+					{
+						path: '/services',
+						element: <ServicesPage />,
+					},
+					{
+						path: '/about',
+						element: <AboutPage />,
+					},
+					{
+						path: '/auth',
+						element: <UserAuth />,
 					},
 				],
 			},

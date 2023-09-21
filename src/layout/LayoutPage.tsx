@@ -1,11 +1,12 @@
-import { Footer, Header } from '@/components';
+import { Footer } from '@/components';
+import { Drawer } from '@/components/Drawer';
 import { NavBar } from '@/components/NavBar';
 import { Outlet } from 'react-router-dom';
 
 const LayoutPage = () => {
 	return (
 		<>
-			<Header />
+			{/* <Drawer/> */}
 			<NavBar />
 			<Outlet />
 			<Footer />
