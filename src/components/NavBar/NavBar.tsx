@@ -1,7 +1,6 @@
 import React from 'react';
 import './NavBar.css';
 import { Avatar, Dropdown, Navbar } from 'flowbite-react';
-import { FaBeer, FaHome } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
 export type NavBarProps = {};

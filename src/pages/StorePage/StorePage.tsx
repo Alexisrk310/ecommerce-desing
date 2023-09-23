@@ -2,7 +2,7 @@ import React from 'react';
 import './StorePage.css';
 import { TextInput } from 'flowbite-react';
 import { FaStore } from 'react-icons/fa';
-import { ECommerceCard, SideBar } from '@/components';
+import { ECommerceCard } from '@/components';
 
 export type StorePageProps = {};
 
