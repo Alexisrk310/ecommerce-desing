@@ -2,10 +2,11 @@ import { createBrowserRouter } from 'react-router-dom';
 import {
 	AboutPage,
 	HomePage,
+	LoginPage,
 	NoFoundPage,
+	RegisterPage,
 	ServicesPage,
 	StorePage,
-	UserAuth,
 } from '@/pages';
 import LayoutPage from '@/layout/LayoutPage';
 
@@ -37,8 +38,12 @@ export const AppRouter = createBrowserRouter([
 						element: <AboutPage />,
 					},
 					{
-						path: '/auth',
-						element: <UserAuth />,
+						path: '/login',
+						element: <LoginPage />,
+					},
+					{
+						path: '/register',
+						element: <RegisterPage />,
 					},
 				],
 			},

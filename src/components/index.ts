@@ -6,4 +6,6 @@ export * from './ECommerceCard';
 export * from './Footer';
 export * from './LoadingFullScreen';
 export * from './NavBar';
+export * from './PricingCard';
 export * from './SideBar';
+export * from './index';

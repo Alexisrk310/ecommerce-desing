@@ -73,7 +73,7 @@ const HomePage: React.FC<HomePageProps> = ({}) => {
 			<h1 className="text-4xl text-center my-9 font-bold text-sky-500">
 				Our brands
 			</h1>
-			<div className="container m-auto my-9 gap-5 flex justify-around align-middle flex-wrap">
+			<div className="container m-auto my-9 gap-10 flex justify-around flex-wrap">
 				<Avatar
 					imageAvatar={[
 						'https://e7.pngegg.com/pngimages/104/119/png-clipart-orange-and-white-logo-computer-icons-icon-design-person-person-miscellaneous-logo.png',
@@ -129,7 +129,7 @@ const HomePage: React.FC<HomePageProps> = ({}) => {
 					</div>
 				</div>
 			</div>
-			<div className="m-auto my-9 gap-5 flex justify-around align-middle flex-wrap">
+			<div className="container m-auto my-9 gap-10 flex justify-center align-middle flex-wrap">
 				<CardHorizontal
 					image="https://kanoonforall.com/wp-content/uploads/2021/01/fimg-notice1.jpg"
 					title="New Notices"

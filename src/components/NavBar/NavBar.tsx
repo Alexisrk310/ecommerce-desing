@@ -7,7 +7,6 @@ export type NavBarProps = {};
 
 const NavBar: React.FC<NavBarProps> = ({}) => {
 	return (
-		// <div className="fixed top-0">
 		<Navbar fluid rounded className="bg-base-100 ">
 			<Navbar.Brand>
 				<img
@@ -44,7 +43,12 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
 				<Navbar.Toggle />
 			</div>
 			<Navbar.Collapse>
-				<NavLink to="/">
+				<NavLink to="/">Home</NavLink>
+				<NavLink to="/store">Store</NavLink>
+				<NavLink to="/services">Services</NavLink>
+				<NavLink to="/about">About</NavLink>
+				<NavLink to="/auth">Ser parte</NavLink>
+				{/* <NavLink to="/">
 					<Navbar.Link>Home</Navbar.Link>
 				</NavLink>
 				<NavLink to="/store">
@@ -58,7 +62,7 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
 				</NavLink>
 				<NavLink to="/auth">
 					<Navbar.Link>Ser parte</Navbar.Link>
-				</NavLink>
+				</NavLink> */}
 			</Navbar.Collapse>
 		</Navbar>
 	);

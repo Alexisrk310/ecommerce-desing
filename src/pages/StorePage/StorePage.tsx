@@ -34,7 +34,7 @@ const StorePage: React.FC<StorePageProps> = ({}) => {
 					<ECommerceCard />
 					<ECommerceCard />
 					<ECommerceCard />
-					<ECommerceCard />S
+					<ECommerceCard />
 				</div>
 			</div>
 		</div>
