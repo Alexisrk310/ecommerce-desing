@@ -17,7 +17,7 @@ const LoginPage: React.FC<LoginPageProps> = ({}) => {
 					</div>
 					<TextInput
 						id="email1"
-						placeholder="name@flowbite.com"
+						placeholder="name@example.com"
 						required
 						type="email"
 					/>
@@ -38,7 +38,7 @@ const LoginPage: React.FC<LoginPageProps> = ({}) => {
 				<p
 					className="text-center mt-5 cursor-pointer"
 					onClick={() => navigate('/register')}>
-					No tienes cuenta?
+					I'm not part yet
 				</p>
 			</form>
 		</div>

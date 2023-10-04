@@ -13,7 +13,7 @@ const RegisterPage: React.FC<RegisterPageProps> = ({}) => {
 				<div>
 					<div className="mb-4">
 						<Label htmlFor="name" value="Name" />
-						<TextInput id="name" type="text" placeholder="John Doe" required />
+						<TextInput id="name" type="text" required />
 					</div>
 				</div>
 				<div>
@@ -30,12 +30,7 @@ const RegisterPage: React.FC<RegisterPageProps> = ({}) => {
 				<div>
 					<div className="mb-4">
 						<Label htmlFor="phone" value="Phone Number" />
-						<TextInput
-							id="phone"
-							type="tel"
-							placeholder="123-456-7890"
-							required
-						/>
+						<TextInput id="phone" type="tel" placeholder="+57" required />
 					</div>
 				</div>
 				<div>
@@ -59,7 +54,7 @@ const RegisterPage: React.FC<RegisterPageProps> = ({}) => {
 				<p
 					className="text-center mt-5 cursor-pointer"
 					onClick={() => navigate('/login')}>
-					Ya tienes cuenta?
+					I am already part
 				</p>
 			</form>
 		</div>

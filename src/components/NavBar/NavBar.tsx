@@ -47,7 +47,7 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
 				<NavLink to="/store">Store</NavLink>
 				<NavLink to="/services">Services</NavLink>
 				<NavLink to="/about">About</NavLink>
-				<NavLink to="/auth">Ser parte</NavLink>
+				<NavLink to="/login">Ser parte</NavLink>
 				{/* <NavLink to="/">
 					<Navbar.Link>Home</Navbar.Link>
 				</NavLink>
