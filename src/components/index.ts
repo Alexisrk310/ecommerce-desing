@@ -7,5 +7,5 @@ export * from './Footer';
 export * from './LoadingFullScreen';
 export * from './NavBar';
 export * from './PricingCard';
+export * from './RevealOnScroll';
 export * from './SideBar';
-export * from './index';
