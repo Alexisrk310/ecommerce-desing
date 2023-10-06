@@ -13,13 +13,13 @@ const AboutPage: React.FC<AboutPageProps> = ({}) => {
 				</h1>
 			</RevealOnScroll>
 			<RevealOnScroll>
-				<div className="mockup-browser border h-96 dark:bg-black bg-black">
+				<div className="mockup-browser borderdark:bg-black bg-black">
 					<div className="mockup-browser-toolbar ">
 						<div className="input">
 							https://ecommerce-desing-ebon.vercel.app/
 						</div>
 					</div>
-					<div className=" justify-center px-4 py-16 bg-gray-900 dark:bg-gray-900 h-full">
+					<div className=" justify-center p-10 bg-gray-900 dark:bg-gray-900 h-full">
 						<p className="text-white">
 							On an e-commerce page that offers services such as standard,
 							platinum and gold plans, you can find a wide range of options
