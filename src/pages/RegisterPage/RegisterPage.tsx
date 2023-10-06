@@ -28,13 +28,21 @@ const RegisterPage: React.FC<RegisterPageProps> = ({}) => {
 					<form className="z-50 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3 bg-white p-6 sm:p-8 md:p-10 lg:p-12 rounded-lg shadow-md">
 						<div>
 							<div className="mb-4">
-								<Label htmlFor="name" value="Name" />
+								<Label
+									htmlFor="name"
+									value="Name"
+									className="text-white dark:text-black"
+								/>
 								<TextInput id="name" type="text" required />
 							</div>
 						</div>
 						<div>
 							<div className="mb-4">
-								<Label htmlFor="email" value="Email Address" />
+								<Label
+									htmlFor="email"
+									value="Email Address"
+									className="text-white dark:text-black"
+								/>
 								<TextInput
 									id="email"
 									type="email"
@@ -45,13 +53,21 @@ const RegisterPage: React.FC<RegisterPageProps> = ({}) => {
 						</div>
 						<div>
 							<div className="mb-4">
-								<Label htmlFor="phone" value="Phone Number" />
+								<Label
+									htmlFor="phone"
+									value="Phone Number"
+									className="text-white dark:text-black"
+								/>
 								<TextInput id="phone" type="tel" placeholder="+57" required />
 							</div>
 						</div>
 						<div>
 							<div className="mb-4">
-								<Label htmlFor="password" value="Password" />
+								<Label
+									htmlFor="password"
+									value="Password"
+									className="text-white dark:text-black"
+								/>
 								<TextInput
 									id="password"
 									type="password"
@@ -61,17 +77,18 @@ const RegisterPage: React.FC<RegisterPageProps> = ({}) => {
 							</div>
 						</div>
 						<div className="flex items-center mb-4">
-							<Checkbox id="terms" />
+							<Checkbox id="terms" className="mr-1" />
 							<Label
 								htmlFor="terms"
 								value="I agree to the Terms and Conditions"
+								className="text-white dark:text-black"
 							/>
 						</div>
 						<Button type="submit" className="w-full">
 							Submit
 						</Button>
 						<p
-							className="text-center mt-5 cursor-pointer"
+							className="text-center mt-5 cursor-pointer text-white dark:text-black"
 							onClick={() => navigate('/login')}>
 							I am already part
 						</p>

@@ -26,10 +26,14 @@ const LoginPage: React.FC<LoginPageProps> = ({}) => {
 
 			<RevealOnScroll>
 				<div className="flex justify-center items-center min-h-screen">
-					<form className="z-50 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3 bg-white p-6 sm:p-8 md:p-10 lg:p-12 rounded-lg shadow-md">
+					<form className="z-50 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3 dark:bg-white bg-slate-900 p-6 sm:p-8 md:p-10 lg:p-12 rounded-lg shadow-md">
 						<div>
 							<div className="mb-4">
-								<Label htmlFor="email1" value="Your email" />
+								<Label
+									htmlFor="email1"
+									value="Your email"
+									className="text-white dark:text-black"
+								/>
 							</div>
 							<TextInput
 								id="email1"
@@ -40,19 +44,25 @@ const LoginPage: React.FC<LoginPageProps> = ({}) => {
 						</div>
 						<div>
 							<div className="mb-4">
-								<Label htmlFor="password1" value="Your password" />
+								<Label
+									htmlFor="password1"
+									value="Your password"
+									className="text-white dark:text-black"
+								/>
 							</div>
 							<TextInput id="password1" required type="password" />
 						</div>
 						<div className="flex items-center mb-4">
-							<Checkbox id="remember" />
-							<Label htmlFor="remember">Remember me</Label>
+							<Checkbox id="remember" className="mr-1" />
+							<Label htmlFor="remember" className="text-white dark:text-black">
+								Remember me
+							</Label>
 						</div>
 						<Button type="submit" className="w-full">
 							Submit
 						</Button>
 						<p
-							className="text-center mt-5 cursor-pointer"
+							className="text-center mt-5 cursor-pointer text-white dark:text-black"
 							onClick={() => navigate('/register')}>
 							I'm not part yet
 						</p>

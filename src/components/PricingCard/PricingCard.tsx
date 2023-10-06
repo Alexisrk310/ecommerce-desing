@@ -24,13 +24,15 @@ const PricingCard: React.FC<PricingCardProps> = ({
 	onClick,
 }) => {
 	return (
-		<Card className="bg-base-300">
+		<Card className="dark:bg-slate-800 bg-slate-900 mt-9">
 			<h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
 				{plan}
 			</h5>
 			<div className="flex items-baseline text-gray-900 dark:text-white">
-				<span className="text-3xl font-semibold">$</span>
-				<span className="text-5xl text-base-content font-extrabold tracking-tight">
+				<span className="text-3xl font-semibold dark:text-green-700 text-green-700">
+					$
+				</span>
+				<span className="text-5xl  font-extrabold tracking-tight dark:text-green-700 text-green-700">
 					{amount}
 				</span>
 				<span className="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">
@@ -40,7 +42,15 @@ const PricingCard: React.FC<PricingCardProps> = ({
 			<ul className="my-7 space-y-5">
 				{benefit.map((bene, index) => (
 					<li key={index} className="flex space-x-3">
-						{bene.benefitBool ? <HiCheckCircle /> : <HiOutlineCheckCircle />}
+						{bene.benefitBool ? (
+							<p className="text-white">
+								<HiCheckCircle />
+							</p>
+						) : (
+							<p className="text-gray-600">
+								<HiOutlineCheckCircle />
+							</p>
+						)}
 						<span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
 							{bene.benefitText}
 						</span>
