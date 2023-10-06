@@ -25,7 +25,7 @@ const RegisterPage: React.FC<RegisterPageProps> = ({}) => {
 			</RevealOnScroll>
 			<RevealOnScroll>
 				<div className="flex justify-center items-center min-h-screen">
-					<form className="z-50 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3 bg-white p-6 sm:p-8 md:p-10 lg:p-12 rounded-lg shadow-md">
+					<form className="z-50 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3 dark:bg-white bg-slate-900 p-6 sm:p-8 md:p-10 lg:p-12 rounded-lg shadow-md">
 						<div>
 							<div className="mb-4">
 								<Label
