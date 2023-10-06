@@ -10,7 +10,7 @@ const StorePage: React.FC<StorePageProps> = ({}) => {
 	return (
 		<div className="storepage">
 			<RevealOnScroll>
-				<div className="mx-auto w-full lg:w-1/2">
+				<div className="mx-auto mt-4 w-full lg:w-1/2">
 					<TextInput
 						icon={FaStore}
 						id="email4"

@@ -14,7 +14,7 @@ const CardHorizontal: React.FC<CardHorizontalProps> = ({
 	description,
 }) => {
 	return (
-		<Card horizontal imgSrc={image}>
+		<Card horizontal className="dark:bg-slate-800 bg-slate-400" imgSrc={image}>
 			<h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 				<p>{title}</p>
 			</h5>

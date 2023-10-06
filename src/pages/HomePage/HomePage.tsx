@@ -30,7 +30,7 @@ const HomePage: React.FC<HomePageProps> = ({}) => {
 				</h1>
 			</RevealOnScroll>
 			<RevealOnScroll>
-				<div className="container m-auto gap-10 flex items-center justify-center flex-wrap">
+				<div className=" container m-auto gap-10 flex items-center justify-center flex-wrap">
 					<Card
 						image="https://colombina.com/uploads/banner/9941694117419143.png"
 						alt="hotDog"
@@ -222,21 +222,21 @@ const HomePage: React.FC<HomePageProps> = ({}) => {
 				</div>
 			</RevealOnScroll>
 			<RevealOnScroll>
-				<div className="hero  bg-base-200 my-9">
+				<div className="hero dark:bg-slate-800 bg-slate-900 mt-9">
 					<div className="hero-content flex-col lg:flex-row-reverse">
 						<img
 							src="https://colombina.com/uploads/Logo_Market_Colombina.svg"
 							className="max-w-sm rounded-lg shadow-2xl"
 						/>
 						<div className="mx-5">
-							<h1 className="text-3xl font-bold ">
+							<h1 className="text-white dark:text-white text-3xl font-bold ">
 								All the variety of products in one place
 							</h1>
-							<p className="py-6">
+							<p className="py-6 text-white dark:text-white">
 								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 								Temporibus minima eligendi sequi quia? Odio, ipsa?
 							</p>
-							<button className="btn btn-outline btn-primary btn-block">
+							<button className="btn btn-outline btn-primary btn-block text-white dark:text-white">
 								Find the nearest place
 							</button>
 						</div>

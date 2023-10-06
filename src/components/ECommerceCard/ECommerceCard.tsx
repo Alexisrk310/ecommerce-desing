@@ -10,7 +10,7 @@ const ECommerceCard: React.FC<ECommerceCardProps> = ({}) => {
 		<Card
 			imgAlt="Apple Watch Series 7 in colors pink, silver, and black"
 			imgSrc="https://img.freepik.com/foto-gratis/frutas-coloridas-sabroso-jugoso-maduro-fresco-escritorio-blanco_179666-169.jpg?w=2000"
-			className="w-72">
+			className="w-72 bg-white dark:bg-slate-800">
 			<a href="#">
 				<h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
 					<p>Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</p>
