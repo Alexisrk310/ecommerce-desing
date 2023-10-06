@@ -6,7 +6,7 @@ export type AboutPageProps = {};
 
 const AboutPage: React.FC<AboutPageProps> = ({}) => {
 	return (
-		<div className="aboutpage h-screen md:m-16">
+		<div className="aboutpage pb-10 md:m-16">
 			<RevealOnScroll>
 				<h1 className="text-4xl text-center my-9 font-bold text-sky-500">
 					Find us how
